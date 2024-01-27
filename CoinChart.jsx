@@ -83,6 +83,7 @@ const CoinChart = ({currency}) => {
   <div className='btn' style={{marginTop:"30px"}}>
                <button onClick={()=>setDays(1)} >24 hours</button>
                <button onClick={()=>setDays(30)}>1 Month</button>
+               <button onClick={()=>setDays(180)}>6 Months</button>
                <button onClick={()=>setDays(365)}>1 Year</button>
              </div>
       </div>

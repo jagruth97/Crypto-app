@@ -41,8 +41,8 @@ const Coins = () => {
             />
            </div>
            <div className='btns' >
-             <button onClick={()=>setCurrency('inr')} >inr</button>
-             <button onClick={()=>setCurrency('usd')}>usd</button>
+             <button onClick={()=>setCurrency('inr')} >INR</button>
+             <button onClick={()=>setCurrency('usd')}>USD</button>
            </div>
           { 
             coins.filter((data)=>{
